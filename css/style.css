@@ -44,3 +44,18 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+/*=== Section ===*/
+section {
+    padding: 3rem 5%;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    margin-button: 1rem;
+    color: var(--accent-color);
+}
+
+p {
+    max-width: 800px;
+}
