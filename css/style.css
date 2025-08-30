@@ -108,19 +108,29 @@ a:hover {
     object-fit: cover;
 }
 
-/*=== Section ===*/
+/*=== Sections ===*/
+
 section {
-    padding: 3rem 5%;
+    padding: 3rem 1rem;
+    max-width: 1100px;
+    margin: auto;
 }
 
-h2 {
-    font-family: var(--heading-font);
-    margin-button: 1rem;
-    color: var(--accent-color);
+.project-card {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
-p {
-    max-width: 800px;
+.project-card h3 {
+    color: #ffffff;
+}
+
+.project-card p {
+    color: #cccccc;
+    margin-bottom: 1rem;
 }
 
 /*=== Buttons ===*/
