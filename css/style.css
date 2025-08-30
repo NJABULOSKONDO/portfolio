@@ -163,6 +163,16 @@ section {
     color: #0d0d0d;
 }
 
+/* === Contact Section === */
+#contact p, #contact a {
+    color: #cccccc;
+}
+
+#contact a:hover {
+    color: #ffcc00;
+}
+
+
 /*=== Footer ===*/
 footer {
     text-align: center;
