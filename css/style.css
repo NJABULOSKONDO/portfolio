@@ -133,6 +133,62 @@ section {
     margin-bottom: 1rem;
 }
 
+.project-card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.project-image {
+    flex: 1 1 300px;
+    max-width: 400px;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-right: 1px solid #333;
+}
+
+.project-details {
+    flex: 2 1 500px;
+    padding: 1.5rem;
+}
+
+.project-details h3 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.project-details p {
+    color: #cccccc;
+    margin-bottom: 1rem;
+}
+
+.project-details .btn,
+.project-details .btn-outline {
+    margin-right: 0.5rem;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .project-card {
+        flex-direction: column;
+    }
+
+    .project-image {
+        max-width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #333;
+    }
+}
+
 /*=== Buttons ===*/
 
 .btn, .btn-outline {
@@ -163,7 +219,7 @@ section {
     color: #0d0d0d;
 }
 
-/* ===== Let's Connect Section ===== */
+/* ==== Let's Connect Section ==== */
 #connect {
     padding: 3rem 1rem;
     max-width: 1100px;
@@ -264,7 +320,6 @@ section {
         flex-direction: column;
     }
 }
-
 
 /*=== Footer ===*/
 footer {
