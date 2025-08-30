@@ -177,6 +177,8 @@ section {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #f7f7f7;
+    background-color: #0d0d0d;
+    color: #777;
     font-size: 0.9rem;
+    border-top: 1px solid #1a1a1a;
 }
