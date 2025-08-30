@@ -1,4 +1,4 @@
-/*=== Base Styles ===*/
+/*=== Global Style ===*/
 
 * {
     margin: 0;
@@ -11,6 +11,37 @@ body {
     background-color: #0d0d0d; /* deep black background */
     color: #ffffff;
     line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /*=== Layout ===*/
