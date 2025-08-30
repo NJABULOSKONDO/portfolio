@@ -163,13 +163,106 @@ section {
     color: #0d0d0d;
 }
 
-/* === Contact Section === */
-#contact p, #contact a {
-    color: #cccccc;
+/* ===== Let's Connect Section ===== */
+#connect {
+    padding: 3rem 1rem;
+    max-width: 1100px;
+    margin: auto;
 }
 
-#contact a:hover {
+.connect-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.connect-info, .connect-form {
+    flex: 1 1 400px;
+}
+
+.connect-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.connect-info p {
+    color: #cccccc;
+    margin-bottom: 1rem;
+}
+
+.connect-info a {
     color: #ffcc00;
+    font-weight: 600;
+}
+
+.social-icons {
+    margin-top: 1.5rem;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+}
+
+.social-icons a:hover img {
+    filter: brightness(0) invert(1) drop-shadow(0 0 5px #ffcc00);
+}
+
+/* ===== Contact Form Styling ===== */
+.connect-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.connect-form label {
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+.connect-form input,
+.connect-form textarea {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.connect-form input:focus,
+.connect-form textarea:focus {
+    outline: none;
+    border-color: #ffcc00;
+}
+
+.connect-form button {
+    background-color: #ffcc00;
+    color: #0d0d0d;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.connect-form button:hover {
+    background-color: #e6b800;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .connect-container {
+        flex-direction: column;
+    }
 }
 
 
